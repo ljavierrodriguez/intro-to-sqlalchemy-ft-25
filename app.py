@@ -91,3 +91,5 @@ session.commit()
 
 # SELECT * FROM roles WHERE id = 1; # ADMIN
 role = Role.query.get(1)
+
+role.users # [<User 1>]
